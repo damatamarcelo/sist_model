@@ -12,7 +12,45 @@
     <main>
         <div class="box">
             <form action="#">
-                <fieldset><b>Formulário de Cliente</b></fieldset>
+                <fieldset>
+                    <legend><b>Formulário de Cliente</b></legend><br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome">Nome COmpleto</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" class="inputEmail" required>
+                        <label for="email">Email</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputTel" required>
+                        <label for="telefone">Telefone</label>
+                    </div><br><br>
+                    <p>Sexo</p>
+                    <input type="radio" name="feminino" id="feminino" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="masculino" id="masculino" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="outro" id="outro" value="outro" required>
+                    <label for="outro">Outro</label><br><br>
+                    <div class="inputBox">
+                        <label for="data_nascimento"><b>Data de nascimento</b></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" class="inputTel" required>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade">Cidade</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                        <label for="estado">Estado</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" name="enderco" id="enderco" class="inputUser" required>
+                        <label for="enderco">Endereço</label>
+                    </div><br><br>
+                    <input type="submit" value="Enviar" name="submit" id="submit">
+                </fieldset>
             </form>
         </div>
     </main>
